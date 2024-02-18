@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -26,7 +27,27 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your notes here!</li>
+          <li>A margin (outside) indicates how much space we want around the outside of an element.</li>
+          <li>A padding (inside) indicates how much space we want around the content inside an element.</li>
+          <li>CSS: Cascading Style Sheets</li>
+          <li>CSS: defines colors, aesthetics, visual layout, and organization.</li>
+          <li>3 ways to style: Inline, Internal, External Stylesheets</li>
+          <li>Inline: when a dev wants to style an element directly in the HTML file. Inline styles apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only.</li>
+          <li>Inline cont.: They are useful for quick and permanent changes but are less flexible than external and internal style sheets because each inline style must be edited individually when you make a design change</li>
+          <li>Internal: embedding an entire stylesheet directly in the HTML file using style element in the head element. The rules only apply to that page and you can configure CSS classes and IDs which are used to identify elements, to style multiple elements in the page code.</li>
+          <li>Internal Note: a single change to the CSS rule will apply to all tagged page elements.</li>
+          <li>External: allows devs to keep all their CSS rules in a separate file, which makes changes easy. WHen using we link the file with the link element placed in the HTML head. </li>
+          <li>Separation of Concerns: based on the idea that every section of code should have its own responsibility. Separation of Concerns refers to separating code into diff files based on use.</li>
+          <li>Incorporate CSS: cd prework-study-guide - cd assets - touch style.css (creates file) - git status - git checkout main (confirms) - git checkout -b feature/add-css (switches branch)</li>
+          <li>Selector: used to apply a rule to all the elements visible on the page.</li>
+          <li>Dry Code: refers to not repeating yourself - so combine 2 or more selectors with same rules. (refer to notes for visual)</li>
+          <li>text-align: one way to center a title or heading on a webpage.</li>
+          <li>display: block - assigns each image to start on a new line.</li>
+          <li>Link element: creates the connection to the external file.</li>
+          <li>Rel attribute: specifies the relationship between the current document and the linked.</li>
+          <li>Href attribute: specifies the location (URL) of the external resource. The href attribute is using a relative path. This means the location is derived from the current location (in this case index.hmtl). To locate the style sheet from the current location, we must look in the assets folder, hence assets/style.css</li>
+          <li> Class attribute: class attributes allow us to share a CSS rule to any element we choose by assigning the rule to a class attribute with a class selector. Then the class attribute can be assigned to the element in HTML, enabling us to freely choose which element will be assigned the CSS rule.</li>
+          <li>Card = class selector (refer to notes for additional card notes and diagram)</li>
         </ul>
       </section>
       <section class="card" id="git-section">
