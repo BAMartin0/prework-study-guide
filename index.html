@@ -17,12 +17,32 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>The head element contains information about the webpage.</li>
+          <li>The head element contains information about the webpage that helps the browser to render the page correctly.</li>
           <li>The body element represents the visible content shown to the user</li>
           <li>Elements that are nested inside other elements are child elements.</li>
           <li>The body of child elements are known as the parent element</li>
           <li>Semantic HTML element is where the name of the element describes its contents and the role it plays on a webpage.</li>
           <li>Elements and tags are used interchangably but element is from opening to closing and tag is inside angle brackets.</li>
+          <li>Doctype HTML: declaration that tells the browser what document type to expect when opened.</li>
+          <li>Declarations are not case sensitive.</li>
+          <li>HTML Elements are case sensitive.</li>
+          <li>Lang= "en": language english  </li>
+          <li>HTML attributes are always defined in the beginning element, never the closing element.</li>
+          <li>Title: important for SEO</li>
+          <li>Style: defines CSS styles associated with a website.</li>
+          <li>Base: base URL for a webpage</li>
+          <li>Link: connects external resources to the HTML document.</li>
+          <li>Meta: defines metadata (character set, description, keywords, author, viewport)</li>
+          <li>Href: attribute points to the URL for the link.</li>
+          <li>Elements that are nested inside other elements are child elements. The body is the parent element.</li>
+          <li>Semantic HTML element: the name of the element describes its contents and the role it plays on a webpage.</li>
+          <li>p: paragraph ul: unordered list ol:ordered list li: list items img: image (can contain various attributes) src: location of image br: creates a line of empty space a: anchor (creates links to the same webpage or others)</li>
+          <li>Use headers in order.</li>
+          <li>H1 headings should appear only once on each page.</li>
+          <li>Alt: contains string of text that describes the appearance and function of image.</li>
+          <li>Footer: appears at the bottom of page containing author, copyright, contact, sitemap, and navigation.</li>
+          <li>ID: attribute identifies elements and selects them.</li>
+          <li>Class: attribute that works similarly to ID attribute.</li>
         </ul>
       </section>
       <section class="card" id="css-section">
@@ -56,8 +76,19 @@
         <ul>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b (branch-name): creates a new branch and switches to it</li>
+          <li>-b: flag creates a new branch</li>
+          <li>git status: to verify</li>
+          <li>git add -A: adds modifications in the current working branch to the staging area. </li>
+          <li>-A: flag indicating we want to add all changes.</li>
+          <li>git commit -m "add brief message": a commit created that captures a snapshot of the currently staged changes.</li>
+          <li>-m: message</li>
+          <li>git pull origin main: doubles checks if local branch is in sync with the base branch in Github.</li>
+          <li>pull: to recieve a branches modifications into the local environment.</li>
+          <li>origin: indicates the source of the pull will be in the Github repo.</li>
+          <li>main: indicates the branch.</li>
+          <li>git push origin feature/starter code: pushes changes we have locally to our remote Github branch.</li>
           <li>github workflow: create a branch, add commits, open PR, discuss and review, merge and deploy</li>
-          <li>Enter more notes here!</li>
+          <li></li>
         </ul>
       </section>
       <section class="card" id="javascript-section">
@@ -71,8 +102,21 @@
           <li>Console.log: method used to output a message to the web console by adding an argument. </li>
           <li>Style.css: placed with head element. </li>
           <li>Script.js: placed within body (at bottom)</li>
-          <li>COnditional statements and loops: used to control the order in which code is executed or if its executed at all.</li>
+          <li>Conditional statements and loops: used to control the order in which code is executed or if its executed at all.</li>
           <li>If statement: code will only execute if the statement meets a condition or is true. </li>
+          <li>If statement: when computer encounters if statement in JS, it'll check to see if the condition we provide is truthy. If so it'll do whatever action we ask between the curly brackets. If not, computer will ignore whatever is in the curly brackets.</li>
+          <li>Falsy: values of 0, -1, On, "", null, undefined, NaN, or Boolean of false.</li>
+          <li>Truthy: all others including Boolean of true.</li>
+          <li>Else if: second condition</li>
+          <li>=== : strict equality operator that checks to see if two values are equal and returns s Boolean result true if values are equal and false if not equal.</li>
+          <li>Array: a group of related data "a single variable used to hold a group of data (typically data that is related im some way)</li>
+          <li>Arrays are useful when we want to perform a task on multiple pieces of data at once.</li>
+          <li>Arrays are not limited to contain only 1 type of data. A single array can store strings, number, and so on.</li>
+          <li>Index: location number (first number in an index is 0 then 1 and so on. Zero Indexed and sequential)</li>
+          <li>Loops: use the predictability pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over. In order to use we need shapes index and arrays length. Length tells us how many times to repeat. (.lenghth)</li>
+          <li>Let: allows us to change/reassign the value of the variable over time. Esp important in cases where we need to use the variable to store changing values like when iterating over an array using a for loop.</li>
+          <li>For Loop: starting point- let x=0, condition- as long as the variable x is less than the length of the array, the loop will keep running, final statement- x++ which is a shortcut that allows the array to iterate over each item. </li>
+  
         </ul>
       </section>
     </main>
